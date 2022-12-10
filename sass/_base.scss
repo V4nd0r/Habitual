@@ -1,20 +1,4 @@
-:root {
-    --color-primary: #eb2f64;
-    --color-primary-light: #FF3366;
-    --color-primary-dark: #BA265D;
-
-    --color-grey-light-1: #faf9f9;
-    --color-grey-light-2: #f4f2f2;
-    --color-grey-light-3: #f0eeee;
-    --color-grey-light-4: #ccc;
-    
-    --color-grey-dark-1: #333;
-    --color-grey-dark-2: #777;
-    --color-grey-dark-3: #999;
-
-    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
-
-}
+/*@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
     margin: 0;
@@ -33,13 +17,143 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    color: var(--color-grey-dark-2);
-    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
-    background-size: cover;
-    background-repeat: no-repeat;
+  margin: 0;
+  overflow-x: hidden;
+  color: #54575A;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+  font-family: Lato, sans-serif;
+  
 
-    min-height: 100vh;
 }
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1368px;
+  margin: auto;
+}
+
+.brand-img {
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
+}
+
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 68px;
+
+}
+
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  // or 160% 
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  left: 221px;
+  top: 531px;
+}
+
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px; 
+}
+
+.google-play-btn {
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 531px;
+}
+
+.google-play-btn img {
+  width: 156.19px;
+  height: 46.28px; 
+}
+
+.main-image-container {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.product-img {
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.home-img {
+  position: absolute;
+  height: 470px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}*/
