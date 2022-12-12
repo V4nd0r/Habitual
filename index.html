@@ -5,10 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habitual</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="hero">
+    <!--
+    <section class="about">
+        <div class="yellow">
+            <h1 class="title">About the project</h1>
+            <p class="text">Our client wanted a highly personalised webshop experience, with relevant recommendations. 
+                They wanted this app to be primaryly targeted at mobile users, therefore a user-friendly mobile design was a high priority.
+                It was also a key consideration for the client that it would be attractive for as wide range of users as possible. 
+                With this in mind we wanted the design to be simple, friendly, and as accessible as possible.
+            </p>
+        </div>
+    </section>
+    <section class="oppinions"></section>
+    <section class="lowfid"></section>
+    <section class="designsystem"></section>
+    <section class="conclusion"></section>
+    -->
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+<!--**** Hero Section **** -->
+    <section id="hero" class="jumbotron">
         <div class="wrapper">
             <!-- Brand Logo -->
             <img src="./img/habitual-branding.png" alt="Habitual Logo" class="brand-img">
@@ -36,28 +58,305 @@
                 <img src="./img/orders.png" alt="Orders Mockup" class="orders-img">
                 <img src="./img/home.png" alt="Home Mockup" class="home-img">
                 <img src="./img/cart.png" alt="Cart Mockup" class="cart-img">
-                <img src="./img/product.png" alt="Product Mockup" class="product-img">  
+                <img src="./img/product.png" alt="Product Mockup" class="product-img">
+                  
         </div>
-    </section>
-
-    <!--
-    <section class="about">
-        <div class="yellow">
-            <h1 class="title">About the project</h1>
-            <p class="text">Our client wanted a highly personalised webshop experience, with relevant recommendations. 
-                They wanted this app to be primaryly targeted at mobile users, therefore a user-friendly mobile design was a high priority.
-                It was also a key consideration for the client that it would be attractive for as wide range of users as possible. 
-                With this in mind we wanted the design to be simple, friendly, and as accessible as possible.
-            </p>
+      </section>
+   <!--/END Hero Section
+  
+    **** About Section ****
+      <section id="about">
+        <div class="container">
+          <h2 class="section-title load-hidden">About me</h2>
+          <div class="row about-wrapper">
+            <div class="col-md-6 col-sm-12">
+              <div class="about-wrapper__image load-hidden">
+                <img
+                  alt="Profile Image"
+                  class="img-fluid rounded shadow-lg"
+                  height="auto"
+                  width="300px"
+                  src="assets/profile.jpg"
+                  alt="Profile Image"
+                />
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="about-wrapper__info load-hidden">
+                <p class="about-wrapper__info-text">
+                Are you looking for a web developer? </p>
+                <p class="about-wrapper__info-text">
+                  You landed on the right page.  
+                </p>
+                <p class="about-wrapper__info-text">
+                  I'm an energetic and highly motivated web developer, 
+                skilled in a range of programming languages and frameworks, as well as database technologies. 
+                Such as HTML, CSS, JavaScript, React.js, Node.js, Java,  SQL, Git.
+                </p>
+                <span class="d-flex mt-3">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--resume"
+                    href="assets/resume.pdf"
+                  >
+                    View Resume
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="oppinions"></section>
-    <section class="lowfid"></section>
-    <section class="designsystem"></section>
-    <section class="conclusion"></section>
-    -->
+      </section>
+      /END About Section
+  
+      **** Projects Section ****
+      <section id="projects">
+        <div class="container">
+          <div class="project-wrapper">
+            <h2 class="section-title dark-blue-text">Projects</h2>
+  
+            Notice: each .row is a project
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">Smart Brain Project</h3>
+                  <div>
+                    <p class="mb-4">
+                     A face recognition application  created using HTML, CSS, React and Tachyons on the front-end. 
+                     The back-end API built with Node.js. 
+                     The application is connected with a PostgreSQL database which contains user login information and game rankings.
+                    </p>
+                  </div>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://smart-brain-hk.onrender.com/"
+                  >
+                    See Live
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn text-color-main"
+                    href="https://github.com/V4nd0r/facerecognition/tree/master/src"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <a rel="noreferrer" href="https://smart-brain-hk.onrender.com/" target="_blank">
+                    <div
+                      data-tilt
+                      data-tilt-max="4"
+                      data-tilt-glare="true"
+                      data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt"
+                    >
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/Brain.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            /END Project
+  
+                      Notice: each .row is a project
+                      <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                          <div class="project-wrapper__text load-hidden">
+                            <h3 class="project-wrapper__text-title">Natours Project</h3>
+                            <div>
+                              <p class="mb-4">
+                              A responsive website made with Sass.
+                              </p>
+                            </div>
+                            <a
+                              rel="noreferrer"
+                              target="_blank"
+                              class="cta-btn cta-btn--hero"
+                              href="https://natours-hk.netlify.app/"
+                            >
+                              See Live
+                            </a>
+                            <a
+                              rel="noreferrer"
+                              target="_blank"
+                              class="cta-btn text-color-main"
+                              href="https://github.com/V4nd0r/Natours"
+                            >
+                              Source Code
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                          <div class="project-wrapper__image load-hidden">
+                            <a rel="noreferrer" href="https://natours-hk.netlify.app/" target="_blank">
+                              <div
+                                data-tilt
+                                data-tilt-max="4"
+                                data-tilt-glare="true"
+                                data-tilt-max-glare="0.5"
+                                class="thumbnail rounded js-tilt"
+                              >
+                                <img
+                                  alt="Project Image"
+                                  class="img-fluid"
+                                  src="assets/Natours.png"
+                                />
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      /END Project
+  
+             Notice: each .row is a project
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">Habitual</h3>
+                  <div>
+                    <p class="mb-4">
+                      A highly personalised mobile webshop experience designed with Figma.
+                    </p>
+                  </div>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://habitualproject.netlify.app/"
+                  >
+                    See Live
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn text-color-main"
+                    href="#!"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <a rel="noreferrer" href="https://habitualproject.netlify.app/" target="_blank">
+                    <div
+                      data-tilt
+                      data-tilt-max="4"
+                      data-tilt-glare="true"
+                      data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt"
+                    >
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/Habitual.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            /END Project
+  
+            Notice: each .row is a project 
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">Robofriends Project</h3>
+                  <div>
+                    <p class="mb-4">
+                      A responsive and scalable robot register built with React and Redux. Names and contact information are provided by a REST API, and profile images are generated by the robohash API. 
+                    </p>
+                  </div>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://robofriends-kh.netlify.app/"
+                  >
+                    See Live
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn text-color-main"
+                    href="https://github.com/V4nd0r/robofriends"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <a rel="noreferrer" href="https://robofriends-kh.netlify.app/" target="_blank">
+                    <div
+                      data-tilt
+                      data-tilt-max="4"
+                      data-tilt-glare="true"
+                      data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt"
+                    >
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/Robofriends.png"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            /END Project
+          </div>
+        </div>
+      </section>
+      /END Projects Section 
+  
+      **** Contact Section ****
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-wrapper load-hidden">
+            <p class="contact-wrapper__text">Interested in working with me?</p>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--resume"
+              href="mailto:hajnikrekuska@gmail.com"
+              >Drop me a message!</a
+            >
+          </div>
+        </div>
+      </section>
+       /END Contact Section
+  
+      **** Footer Section ****
+      <footer class="footer navbar-static-bottom">
+        <div class="container">
+          <a rel="noreferrer" href="#top" class="back-to-top">
+            <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+          </a>
+          <div class="social-links">
+            <a rel="noreferrer" href="https://www.linkedin.com/in/hajnalka-krekuska-4b90a4116/" target="_blank">
+              <i class="fa fa-linkedin fa-inverse"></i>
+            </a>
+            <a rel="noreferrer" href="https://github.com/V4nd0r" target="_blank">
+              <i class="fa fa-github fa-inverse"></i>
+            </a>
+          </div>
+  
+      <script defer type="module" src="index.js"></script>
+    </body>
 
-    <!-- Script -->
-    <script src="script.js"></script>
-</body>
+-->
 </html>
